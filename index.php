@@ -11,8 +11,18 @@
     <title>Pizzaria Esqueça Tudo</title>
   </head>
   <body>
-   <header>
-      <img src="logo.png" alt="Logo Pizzaria"/>
+   <header class="d-flex">
+    <div class="container d-flex justify-content-between">
+      <img src="img/logo.png" alt="Logo Pizzaria"/>
+    </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Cardápio</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
    </header>
 
 
